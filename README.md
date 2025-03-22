@@ -13,9 +13,8 @@ Site-ul este un portofoliu online de servicii de web design și logo design, des
 ---
 
 ## 💡 Surse / modele de inspirație
-
-Structura site-ului și designul sunt inspirate de tendințele actuale din designul minimalist și responsive.  
-Posibilă inspirație din portofolii ale altor designeri web, platforme ca **Behance** sau **Dribbble**.
+ 
+Structura și stilul vizual au fost inspirate de portofolii moderne întâlnite pe platformele Behance și Dribbble, cu accent pe site-uri one-page, minimaliste, orientate spre conversie și ușor de parcurs pe dispozitive mobile.
 
 ---
 
