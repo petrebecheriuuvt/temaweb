@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Web Designer</title>
+  <meta name="description" content="Contactează-mă pentru servicii de web design și logo design">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">WebNation</a>
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Acasă</a></li>
+            <li><a href="works.html" class="nav-link">Portofoliu</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./img/hero.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Contact</h1>
+          <p class="hero-subtitle">Hai să discutăm despre proiectul tău</p>
+          <div class="hero-cta">
+            <a href="#contact-form" class="btn-primary">
+              Trimite un mesaj
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Informații de contact</h2>
+          <p class="section-subtitle">Sunt aici pentru a răspunde întrebărilor tale</p>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <h3 class="contact-title">Telefon</h3>
+            <p class="contact-description">Disponibil Luni-Vineri, 9:00 - 18:00</p>
+            <a href="tel:+40700000000" class="contact-link">+40 763 177 177</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <h3 class="contact-title">Email</h3>
+            <p class="contact-description">Răspuns în maxim 24 de ore</p>
+            <a href="mailto:contact@example.com" class="contact-link">contact@webnation.ro</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <h3 class="contact-title">Adresă</h3>
+            <p class="contact-description">Întâlniri disponibile cu programare</p>
+            <address class="contact-address">
+              Strada Gh Lazar, nr 1,<br />Timisoara, România
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27318.369017872056!2d21.187824500000002!3d45.7488715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474567c9caa09fcd%3A0x2a79851b21c5431d!2sTimi%C8%99oara!5e0!3m2!1sro!2sro!4v1710336000000!5m2!1sro!2sro" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form-section">
+      <div class="container">
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nume <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+              <div class="error-message" id="name-error"></div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+              <div class="error-message" id="email-error"></div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subiect</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Mesaj <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <div class="error-message" id="message-error"></div>
+            </div>
+            
+            <div class="form-group">
+              <button type="submit" class="submit-button">Trimite mesaj</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Întrebări frecvente</h2>
+          <p class="section-subtitle">Răspunsuri la cele mai comune întrebări</p>
+        </div>
+        
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3 class="faq-question">Cât durează realizarea unui site web?</h3>
+            <p class="faq-answer">
+              Durata depinde de complexitatea proiectului. Un site de prezentare simplu poate fi gata în 2-3 săptămâni, în timp ce un e-commerce complex poate dura 1-2 luni.
+            </p>
+          </div>
+          
+          <div class="faq-card">
+            <h3 class="faq-question">Ce informații îmi trebuie pentru a începe un proiect?</h3>
+            <p class="faq-answer">
+              Avem nevoie de o discuție inițială despre obiectivele tale, publicul țintă, preferințele de design și conținutul site-ului. De asemenea, logo-ul și materialele de brand existente sunt utile.
+            </p>
+          </div>
+          
+          <div class="faq-card">
+            <h3 class="faq-question">Oferi și servicii de mentenanță după lansare?</h3>
+            <p class="faq-answer">
+              Da, ofer pachete de mentenanță lunare care includ actualizări, backup-uri, monitorizare și suport tehnic. Acestea sunt personalizate în funcție de nevoile tale.
+            </p>
+          </div>
+          
+          <div class="faq-card">
+            <h3 class="faq-question">Site-urile create sunt responsive?</h3>
+            <p class="faq-answer">
+              Absolut! Toate site-urile pe care le creez sunt complet responsive și optimizate pentru toate dispozitivele, de la desktop la tablete și telefoane mobile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-branding">
+          <h3 class="footer-logo">WebNation</h3>
+          <p class="footer-tagline">Design web care transformă viziunea ta în realitate</p>
+        </div>
+        
+        <div class="footer-nav">
+          <h4 class="footer-heading">Linkuri rapide</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="works.html">Portofoliu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-contact-list">
+            <li>contact@webnation.ro</li>
+            <li>+40 763 177 177</li>
+            <li>Timisoara, România</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">© 2025 WebNation. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

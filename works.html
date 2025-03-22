@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofoliu - Web Designer</title>
+  <meta name="description" content="Portofoliu de proiecte web design și logo design realizate">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">WebNation</a>
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Acasă</a></li>
+            <li><a href="works.html" class="nav-link active">Portofoliu</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./img/hero.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Portofoliu</h1>
+          <p class="hero-subtitle">O selecție din proiectele mele recente de design web și logo</p>
+          <div class="hero-cta">
+            <a href="contact.html" class="btn-primary">
+              Contactează-mă
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Ce spun clienții</h2>
+          <p class="section-subtitle">Feedback-ul primit de la clienții mulțumiți</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3333 23.3333C13.3333 26.6667 10.6667 29.3333 7.33333 29.3333C4 29.3333 1.33333 26.6667 1.33333 23.3333C1.33333 20 4 17.3333 7.33333 17.3333V13.3333C1.93333 13.3333 -2.38419e-07 19.2667 -2.38419e-07 23.3333C-2.38419e-07 27.4 3.26667 33.3333 7.33333 33.3333C11.4 33.3333 17.3333 29.4 17.3333 23.3333V13.3333H13.3333V23.3333ZM34.6667 17.3333V13.3333C29.2667 13.3333 27.3333 19.2667 27.3333 23.3333C27.3333 27.4 30.6 33.3333 34.6667 33.3333C38.7333 33.3333 42.6667 29.4 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C33.3333 29.3333 30.6667 26.6667 30.6667 23.3333C30.6667 20 33.3333 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C40 29.3333 42.6667 26.6667 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333H34.6667Z" fill="currentColor"/>
+              </svg>
+            </div>
+            
+            <p class="testimonial-text">
+              "Am fost impresionat de profesionalismul și creativitatea de care a dat dovadă. Site-ul nostru a depășit toate așteptările și am primit feedback pozitiv de la clienții noștri."
+            </p>
+            
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Alexandru Popescu</h4>
+                <p class="testimonial-position">CEO, TechSolutions</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3333 23.3333C13.3333 26.6667 10.6667 29.3333 7.33333 29.3333C4 29.3333 1.33333 26.6667 1.33333 23.3333C1.33333 20 4 17.3333 7.33333 17.3333V13.3333C1.93333 13.3333 -2.38419e-07 19.2667 -2.38419e-07 23.3333C-2.38419e-07 27.4 3.26667 33.3333 7.33333 33.3333C11.4 33.3333 17.3333 29.4 17.3333 23.3333V13.3333H13.3333V23.3333ZM34.6667 17.3333V13.3333C29.2667 13.3333 27.3333 19.2667 27.3333 23.3333C27.3333 27.4 30.6 33.3333 34.6667 33.3333C38.7333 33.3333 42.6667 29.4 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C33.3333 29.3333 30.6667 26.6667 30.6667 23.3333C30.6667 20 33.3333 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C40 29.3333 42.6667 26.6667 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333H34.6667Z" fill="currentColor"/>
+              </svg>
+            </div>
+            
+            <p class="testimonial-text">
+              "Colaborarea pentru redesign-ul site-ului nostru a fost excelentă. Totul a fost livrat la timp, iar comunicarea a fost foarte eficientă. Recomand cu căldură!"
+            </p>
+            
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Maria Ionescu</h4>
+                <p class="testimonial-position">Marketing Manager, Eco Style</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3333 23.3333C13.3333 26.6667 10.6667 29.3333 7.33333 29.3333C4 29.3333 1.33333 26.6667 1.33333 23.3333C1.33333 20 4 17.3333 7.33333 17.3333V13.3333C1.93333 13.3333 -2.38419e-07 19.2667 -2.38419e-07 23.3333C-2.38419e-07 27.4 3.26667 33.3333 7.33333 33.3333C11.4 33.3333 17.3333 29.4 17.3333 23.3333V13.3333H13.3333V23.3333ZM34.6667 17.3333V13.3333C29.2667 13.3333 27.3333 19.2667 27.3333 23.3333C27.3333 27.4 30.6 33.3333 34.6667 33.3333C38.7333 33.3333 42.6667 29.4 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C33.3333 29.3333 30.6667 26.6667 30.6667 23.3333C30.6667 20 33.3333 17.3333 36.6667 17.3333C33.3333 17.3333 30.6667 20 30.6667 23.3333C30.6667 26.6667 33.3333 29.3333 36.6667 29.3333C40 29.3333 42.6667 26.6667 42.6667 23.3333C42.6667 20 40 17.3333 36.6667 17.3333H34.6667Z" fill="currentColor"/>
+              </svg>
+            </div>
+            
+            <p class="testimonial-text">
+              "Logo-ul creat pentru brandul nostru a fost exact ce ne-am dorit. Interpretarea perfectă a viziunii noastre, transformată într-un design elegant și memorabil."
+            </p>
+            
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Mihai Dumitrescu</h4>
+                <p class="testimonial-position">Fondator, Artisan Coffee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Proiecte realizate</h2>
+          <p class="section-subtitle">Explorează o selecție din proiectele mele recente</p>
+        </div>
+      </div>
+      
+      <div class="portfolio-grid portfolio-full-grid">
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/portofoliu4.png" alt="Proiect 1">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Site de prezentare</span>
+            <h3 class="portfolio-title">Beauty Salon</h3>
+			<p class="portfolio-description">Salon de înfrumusețare</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/portofoliu2.png" alt="Proiect 2">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Site de prezentare</span>
+            <h3 class="portfolio-title">TOP DUO CONSULTING</h3>
+			<p class="portfolio-description">Firmă de consultanță</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/portofoliu3.png" alt="Proiect 3">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Site de prezentare</span>
+            <h3 class="portfolio-title">RO TRUST</h3>
+			<p class="portfolio-description">Firmă de arhitectură</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/logo6.png" alt="Proiect 4">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Logo Design</span>
+            <h3 class="portfolio-title">MAD MEDIA</h3>
+            <p class="portfolio-description">Design de interfață pentru o aplicație mobilă de sănătate, cu accent pe accesibilitate și ușurință în utilizare.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/logo7.png" alt="Proiect 5">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Logo Design</span>
+            <h3 class="portfolio-title">ANARCHI DESIGN</h3>
+            <p class="portfolio-description">Identitate vizuală pentru un brand de produse agricole organice, incluzând logo, paletă de culori și packaging.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="./img/logo4.png" alt="Proiect 6">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Logo Design</span>
+            <h3 class="portfolio-title">FO7O</h3>
+            <p class="portfolio-description">Site de blog cu design personalizat, optimizat pentru SEO și integrare cu social media.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-branding">
+          <h3 class="footer-logo">WebNation</h3>
+          <p class="footer-tagline">Design web care transformă viziunea ta în realitate</p>
+        </div>
+        
+        <div class="footer-nav">
+          <h4 class="footer-heading">Linkuri rapide</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="works.html">Portofoliu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-contact-list">
+            <li>contact@webnation</li>
+            <li>+40 763 177 177</li>
+            <li>Timisoara, România</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">© 2025 WebNation. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
